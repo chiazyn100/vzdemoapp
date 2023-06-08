@@ -15,4 +15,4 @@ spec:
     - destination:
         host: apache-service
         port:
-          number: 80
+          number: 8080
