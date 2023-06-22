@@ -5,12 +5,12 @@ metadata:
 
 spec:
  hosts:
- - "apache.default.158.178.230.133.nip.io"
+  - "apache.default.158.178.230.133.nip.io"
  gateways:
- - apache-gateway
+  - apache-gateway
  http:
- - route:
-  - destination:
-    host: apache-service
-    port:
-     number: 80
+  - route:
+   - destination:
+     host: apache-service
+     port:
+      number: 80
