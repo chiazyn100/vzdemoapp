@@ -11,5 +11,3 @@ spec:
     - route:
       - destination:
         host: apache-service
-        port:
-          number: 80
