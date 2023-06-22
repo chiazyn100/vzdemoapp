@@ -9,7 +9,7 @@ metadata:
 spec:
   endpoints:
   - path: /actuator/prometheus
-    port: apacheweb
+    port: http-apacheweb
     scheme: https
     enableHttp2: false
     tlsConfig:
