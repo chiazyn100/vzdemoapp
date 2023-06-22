@@ -8,7 +8,7 @@ spec:
   gateways:
   - apache-gateway
   http:
-   - route:
+    route:
     - destination:
       host: apache-service
       port:
