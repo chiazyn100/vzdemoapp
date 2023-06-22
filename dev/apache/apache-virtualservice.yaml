@@ -5,7 +5,7 @@ metadata:
 
 spec:
  hosts:
-  - "apache.default.158.178.230.133.nip.io"
+  - apache.default.158.178.230.133.nip.io
  gateways:
   - apache-gateway
  http:
