@@ -8,6 +8,7 @@ spec:
   gateways:
   - apache-gateway
   http:
-    - route:
+    - name: "v1"
+      route:
       - destination:
-        host: apache-service
+          host: apache-service
